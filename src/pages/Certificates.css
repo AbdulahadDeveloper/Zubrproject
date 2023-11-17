@@ -1,0 +1,154 @@
+.Certificates{
+    width: 100%;
+    height: 100vh;
+  font-family: 'Oswald', sans-serif;
+   position: relative;
+    font-family: sans-serif;
+    background: url("../assets/main-bg.jpg");
+    margin-top: 100px;
+}
+.Certificates{
+    color: white;
+}
+.Certificates h1{
+    font-size: 40px;
+    margin-top: 100px;
+    position: absolute;
+    margin: 70px 27px;
+}
+.Link{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.Link span{
+    font-size: 17px;
+    color: gray;
+    margin-left: 10px;
+}
+.Link:hover{
+    list-style: none;
+    text-decoration: underline;
+    color: gray;
+}
+.Certificates .h2{
+    position: absolute;
+    margin-top: 168px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.Certificate{
+    width: 95.5%;
+    height: 270px;
+    /* border: 2px solid red; */
+    margin-top: 252px;
+    position: absolute;
+    margin-left: 27px;
+    display: flex;
+}
+.Certificat{
+    width: 16.5%;
+    height: 100%;
+    border: .1px solid rgb(151, 163, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Certificat img{
+    width: 87%;
+}
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+   .mySwiper{
+    display: none;
+   }
+  .swiper {
+    width: 33%;
+    height: 100vh;
+    top:0;
+    position: absolute;
+    display: none;
+    transform: translateY(-1000px);
+    margin-top: -100px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 700px) {
+    .Certificates h1{
+      font-size: 25px;
+    }
+    .Certificate{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+    }
+    .Link{
+      margin-left: 20px;
+      font-size: 10px;
+    }
+    .Link span {
+      font-size: 12px;
+    }
+    .Certificat img{
+      width: 90%;
+    }
+
+  }
+  .showSlide{
+    display: block;
+    transform: translateY(0px);
+    position: relative;
+  }
+  .showSlide:hover .ultra{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    margin-left: 810px;
+    /* border: 2px solid white; */
+    margin-top: -10px;
+  }
+.ultra{
+  position: absolute;
+  z-index: 10;
+  width: 40px;
+  margin-left: 810px;
+  /* border: 2px solid white; */
+  margin-top: -10px;
+  display: none;
+}

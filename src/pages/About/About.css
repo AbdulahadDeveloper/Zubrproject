@@ -1,0 +1,119 @@
+.About {
+    width: 100%;
+    height: 130vh;
+    background: black;
+    color: rgba(255, 255, 255, 0.756);
+}
+
+.About h1 {
+    margin-top: 70px;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: 600;
+letter-spacing: 1px;
+
+color: rgba(255, 255, 255, 0.756);
+ 
+}
+.About h3{
+position: absolute;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 25px;
+margin-top: 160px;
+font-weight: 400;
+letter-spacing: 1px;
+color: rgba(255, 255, 255, 0.756);
+
+margin-left: 40px;
+}
+.About p{
+    position: absolute;
+    margin-top: 220px;
+letter-spacing: 1px;
+font-size: 15px;
+margin-left: 40px;
+color: rgba(255, 255, 255, 0.756);
+
+}
+.About .p{
+    position: absolute;
+    margin-top: 270px;
+    font-size: 15px;
+letter-spacing: 1px;
+color: rgba(255, 255, 255, 0.756);
+
+    margin-left: 40px;
+}
+.li{
+    /* color: white; */
+    margin-top: 25px;
+    list-style: inside;
+letter-spacing: 1px;
+color: rgba(255, 255, 255, 0.756);
+
+    /* margin-left: -17px; */
+}
+.li1{
+    margin-top: 10px;
+    list-style: inside;
+letter-spacing: 1px;
+color: rgba(255, 255, 255, 0.756);
+
+    
+
+}
+.li2{
+    margin-top: 10px;
+    list-style: inside;
+letter-spacing: 1px;
+color: rgba(255, 255, 255, 0.756);
+
+
+}
+.li3{
+    margin-top: 10px;
+    list-style: inside;
+letter-spacing: 1px;
+color: rgba(255, 255, 255, 0.756);
+
+
+}
+.li5{
+    margin-top: 10px;
+letter-spacing: 1px;
+color: rgba(255, 255, 255, 0.756);
+
+    list-style: inside;
+
+}
+.pen{
+width: 90%;
+padding-top: 230px;
+letter-spacing: 1px;
+/* initial-letter: 10px; */
+position: absolute;
+color: rgba(255, 255, 255, 0.756);
+
+}
+.pencil{
+    width: 90%;
+position: absolute;
+padding-top: 350px;
+letter-spacing: 1px;
+color: rgba(255, 255, 255, 0.756);
+}
+.pencilcase{
+    width: 90%;
+    position: absolute;
+    padding-top: 410px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.756);
+}
+.pentor{
+    width: 90%;
+    position: absolute;
+    padding-top: 490px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.756);
+}

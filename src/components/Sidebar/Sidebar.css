@@ -1,0 +1,84 @@
+.Sidebar{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: absolute;
+   /* border: 2px solid red; */
+    color: white;
+    margin-top: -20%;
+   }
+.Sidebar h1{
+    font-size: 48px;
+    margin-left: -80px;
+
+}
+.pen1{
+    width: 85%;
+    text-align: start;
+    color: gray;
+    margin-left: 80px;
+
+
+}
+.pencil1{
+    width: 83%;
+    text-align: initial;
+    color: gray;
+   margin-top: 30px;
+    margin-left: 80px;
+}
+@media (max-width: 700px){
+    .Sidebar{
+        height: 100vh;
+        margin-top: 0px;
+        margin-top: -600px;
+        position: relative;
+        /* border: 2px solid red; */
+    }
+    .Sidebar h1{
+        width: 80%;
+        font-size: 30px;
+        margin-top:0px;
+        margin-left: 25px;
+        text-align: center;
+        position: relative;
+    }
+    .pen1{
+        margin-left: 20px;
+        position: relative;
+        text-align: center;
+         margin-top: -500px;
+        width: 90%;
+    }
+    .pencil1{
+        width: 90%;
+        position: relative;
+       margin-top: 0;
+       text-align: center;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .Sidebar h1{
+        width: 85%;
+        height: 100vh;
+        margin-top: 0px;
+       text-align: center;
+
+        font-size: 25px;
+    }
+    .pen1{
+        width: 95%;
+        margin-left: 10px;
+        margin-top: -400px;
+       text-align: center;
+
+    }
+    .pencil1{
+        width: 90%;
+        margin-left: 10px;
+       text-align: center;
+
+        margin: auto;
+    }
+}

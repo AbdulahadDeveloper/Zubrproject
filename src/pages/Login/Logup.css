@@ -1,0 +1,22 @@
+.logun{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid white;
+   color: white;
+}
+.btn img{
+width: 20%;
+border-radius: 50%;
+}
